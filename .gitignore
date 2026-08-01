@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Kombai
+.kombai/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Debug / scratch files
+debug_load.py
+scratch_notebook_code.py
+
+# Large data files (keep in local only, not pushed to GitHub)
+training datasets/
+data-science-nigeria-challenge-1-loan-default-prediction*/
+
+# Documents (optional - can be included if desired)
+# *.docx
+# *.pdf
+
+# Model directory contains trained artifacts that ARE needed for deployment
+# Do NOT ignore Model/
+
+# Gemini / Antigravity
+.gemini/

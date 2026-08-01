@@ -1,0 +1,6 @@
+@echo off
+echo Installing requirements...
+pip install -r webapp\requirements.txt
+echo Starting Streamlit App...
+streamlit run webapp\app.py
+pause
