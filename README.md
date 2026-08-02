@@ -171,7 +171,7 @@ Once the files are added, these markdown image tags will render them:
 
 ![Summary (light)](webapp/Screenshots/summary_light.png)
 
-![App form (light)](webapp/Screenshots/app_light_form.png)
+![App form (light)](webapp/Screenshots/Webpage_lightmode.png)
 
 ---
 
