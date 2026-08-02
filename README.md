@@ -165,7 +165,7 @@ Below are example screenshots from the running app.
 
 Once the files are added, these markdown image tags will render them:
 
-![SHAP explanation (dark)](webapp/Screenshots/shap_explanation_dark.png)
+![SHAP explanation (light)](webapp/Screenshots/AI_explanations_lightmode.png)
 
 ![App form (dark)](webapp/Screenshots/Webpage_darkmode.png)
 
