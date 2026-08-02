@@ -6,7 +6,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting micro-loan defaults in agricultural finance. Built as a capstone project for **Ngao Labs**, this system evaluates loan requests against historical credit performance, transaction behavior, and applicant demographics — while providing transparent, per-prediction explanations using SHAP.
+An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting micro-loan defaults in agricultural finance. Built as a capstone project for **Ngao Labs**, this system evaluates loa[...]
 
 ---
 
@@ -30,7 +30,7 @@ An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting 
 
 ## 🎯 Problem Statement
 
-Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This project automates default risk prediction by leveraging machine learning, enabling:
+Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This[...]
 
 - **Faster loan processing** with real-time risk scoring
 - **Reduced default rates** through data-driven decision-making
@@ -161,6 +161,23 @@ The app provides:
 2. A prediction result with confidence percentage
 3. A detailed SHAP explanation section showing which factors influenced the decision
 
+Below are example screenshots from the running app. To display these in the README, add the screenshot image files to the repository at `webapp/screenshots/` using the filenames below.
+
+- webapp/screenshots/shap_explanation_dark.png — SHAP explanation (dark theme)
+- webapp/screenshots/app_dark_form.png — App input form (dark theme)
+- webapp/screenshots/summary_light.png — Summary & Responsible AI notice (light theme)
+- webapp/screenshots/app_light_form.png — App input form (light theme)
+
+Once the files are added, these markdown image tags will render them:
+
+![SHAP explanation (dark)](webapp/screenshots/shap_explanation_dark.png)
+
+![App form (dark)](webapp/screenshots/app_dark_form.png)
+
+![Summary (light)](webapp/screenshots/summary_light.png)
+
+![App form (light)](webapp/screenshots/app_light_form.png)
+
 ---
 
 ## 🚀 Installation & Setup
@@ -256,7 +273,7 @@ Ngao-Labs-Project/
 
 ## 🔑 Key Findings
 
-1. **Top Risk Drivers**: Repayment delays (`mean_repay_delay`, `max_repay_delay`), `late_repayment_ratio`, and high loan intensity (`loanamount / termdays`) are the strongest predictors of future default.
+1. **Top Risk Drivers**: Repayment delays (`mean_repay_delay`, `max_repay_delay`), `late_repayment_ratio`, and high loan intensity (`loanamount / termdays`) are the strongest predictors of future[...]
 
 2. **Threshold Tuning > SMOTE**: Adjusting the XGBoost classification threshold (from 0.5 to ~0.25) was more effective than SMOTE alone for catching actual defaults.
 
@@ -272,11 +289,11 @@ This project implements several Responsible AI practices:
 
 - **Explainability**: Every prediction includes SHAP-based feature impact analysis, providing loan officers with clear reasoning behind each recommendation.
 
-- **Fairness Audit**: Disaggregated AUC-ROC analysis across employment status sub-groups (`Permanent`, `Self-Employed`, `Student`, `Unemployed`, `Retired`) demonstrated consistent model performance, reducing algorithmic bias risk.
+- **Fairness Audit**: Disaggregated AUC-ROC analysis across employment status sub-groups (`Permanent`, `Self-Employed`, `Student`, `Unemployed`, `Retired`) demonstrated consistent model performan[...]
 
-- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool — not a replacement for human judgment, institutional policies, and regulatory guidelines.
+- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool — not a replacement for human judgment, institutional policies, and regulat[...]
 
-- **No Black Box**: The system does not simply output a "Yes/No" — it explains *why*, showing which specific factors (loan amount, repayment history, employment status, etc.) influenced the decision.
+- **No Black Box**: The system does not simply output a "Yes/No" — it explains *why*, showing which specific factors (loan amount, repayment history, employment status, etc.) influenced the dec[...]
 
 ---
 
