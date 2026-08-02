@@ -161,12 +161,7 @@ The app provides:
 2. A prediction result with confidence percentage
 3. A detailed SHAP explanation section showing which factors influenced the decision
 
-Below are example screenshots from the running app. To display these in the README, add the screenshot image files to the repository at `webapp/screenshots/` using the filenames below.
-
-- webapp/screenshots/shap_explanation_dark.png — SHAP explanation (dark theme)
-- webapp/screenshots/app_dark_form.png — App input form (dark theme)
-- webapp/screenshots/summary_light.png — Summary & Responsible AI notice (light theme)
-- webapp/screenshots/app_light_form.png — App input form (light theme)
+Below are example screenshots from the running app. 
 
 Once the files are added, these markdown image tags will render them:
 
@@ -176,7 +171,7 @@ Once the files are added, these markdown image tags will render them:
 
 ![Summary (light)](webapp/screenshots/summary_light.png)
 
-![App form (light)](webapp/screenshots/app_light_form.png)
+![App form (light)]([webapp/screenshots/app_light_form.png](https://github.com/KalonzoBrian/Ngao-Labs-Project/blob/fc0fbf60a12ec0a1d825850b6a031d8cffb9174e/webapp/Screenshot%20(768).png))
 
 ---
 
