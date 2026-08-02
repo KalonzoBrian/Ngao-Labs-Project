@@ -167,7 +167,7 @@ Once the files are added, these markdown image tags will render them:
 
 ![SHAP explanation (dark)](webapp/Screenshots/shap_explanation_dark.png)
 
-![App form (dark)](webapp/Screenshots/app_dark_form.png)
+![App form (dark)](webapp/Screenshots/Webpage_darkmode.png)
 
 ![Summary (light)](webapp/Screenshots/summary_light.png)
 
