@@ -169,7 +169,7 @@ Once the files are added, these markdown image tags will render them:
 
 ![App form (dark)](webapp/Screenshots/Webpage_darkmode.png)
 
-![Summary (light)](webapp/Screenshots/summary_light.png)
+![Summary (light)](webapp/Screenshots/AI_summary_section.png)
 
 ![App form (light)](webapp/Screenshots/Webpage_lightmode.png)
 
