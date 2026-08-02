@@ -284,7 +284,7 @@ This project implements several Responsible AI practices:
 
 | Name | Role |
 |---|---|
-| **Ngao Labs Capstone Team(Ogola Peter, Brian Kitheka, Ochieng Otula ** | Data Science, ML Engineering, Web Development |
+| Ngao Labs Capstone Team(Ogola Peter, Brian Kitheka, Ochieng Otula  | Data Science, ML Engineering, Web Development |
 
 ---
 
