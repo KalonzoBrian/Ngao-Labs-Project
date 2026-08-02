@@ -6,7 +6,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting micro-loan defaults in agricultural finance. Built as a capstone project for **Ngao Labs**, this system evaluates loa[...]
+An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting micro-loan defaults in agricultural finance. Built as a capstone project for **Ngao Labs**, this system evaluates loa[..]
 
 ---
 
@@ -51,7 +51,7 @@ Kenyan microfinance institutions and SACCOs face significant financial risk from
 
 ---
 
-## 🏗️ Project Architecture
+## ����️ Project Architecture
 
 ```mermaid
 graph LR
@@ -165,13 +165,13 @@ Below are example screenshots from the running app.
 
 Once the files are added, these markdown image tags will render them:
 
-![SHAP explanation (dark)](webapp/screenshots/shap_explanation_dark.png)
+![SHAP explanation (dark)](webapp/Screenshots/shap_explanation_dark.png)
 
-![App form (dark)](webapp/screenshots/app_dark_form.png)
+![App form (dark)](webapp/Screenshots/app_dark_form.png)
 
-![Summary (light)](webapp/screenshots/summary_light.png)
+![Summary (light)](webapp/Screenshots/summary_light.png)
 
-![App form (light)]([webapp/screenshots/app_light_form.png](https://github.com/KalonzoBrian/Ngao-Labs-Project/blob/fc0fbf60a12ec0a1d825850b6a031d8cffb9174e/webapp/Screenshot%20(768).png))
+![App form (light)](webapp/Screenshots/app_light_form.png)
 
 ---
 
@@ -217,7 +217,7 @@ This project is configured for seamless deployment on [Streamlit Community Cloud
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub repository: `KalonzoBrian/Ngao-Labs-Project`
 4. Set the **Main file path** to: `webapp/app.py`
-5. Click **Deploy**
+5. Click **Deploy`
 
 > **Note**: The `Model/` directory containing `loan_preprocessor.joblib` and `xgb_tuned_baseline.json` must be included in the repository for deployment to work.
 
