@@ -217,7 +217,7 @@ This project is configured for seamless deployment on [Streamlit Community Cloud
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub repository: `KalonzoBrian/Ngao-Labs-Project`
 4. Set the **Main file path** to: `webapp/app.py`
-5. Click **Deploy`
+5. Click **Deploy`**
 
 > **Note**: The `Model/` directory containing `loan_preprocessor.joblib` and `xgb_tuned_baseline.json` must be included in the repository for deployment to work.
 
