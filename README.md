@@ -2,7 +2,7 @@
 
 > **Empowering Kenyan Farmers and SACCOs with AI-Driven Credit Decisions**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ngao-labs-project.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://ngao-labs-project.streamlit.app](https://ngaolabcpstoneproject-a8usq8grgsent27ovza4jd.streamlit.app/))
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
