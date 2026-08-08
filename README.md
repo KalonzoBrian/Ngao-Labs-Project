@@ -132,7 +132,7 @@ The project uses three relational datasets from a Kenyan micro-lending instituti
 | `Comparative F1 score with SMOTE.png`(training _images/Comparative F1 score with SMOTE.png) | F1-score improvements after SMOTE |
 | `Confusion Matrixes.png`(training _images/Confusion Matrixes.png) | Baseline confusion matrices |
 | `Confusion Matrixes with tuned XGboost threshold.png`(training _images/Confusion Matrixes with tuned XGboost threshold.png) | Recall-optimized confusion matrices |
-| `Data distribution and Correlation.png` | EDA: class distribution and feature correlations |
+| `Data distribution and Correlation.png`(training _images/Data distribution and Correlation.png) | EDA: class distribution and feature correlations |
 
 </details>
 
