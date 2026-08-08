@@ -51,7 +51,7 @@ Kenyan microfinance institutions and SACCOs face significant financial risk from
 
 ---
 
-## ����️ Project Architecture
+##  Project Architecture
 
 ```mermaid
 graph LR
