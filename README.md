@@ -128,7 +128,7 @@ The project uses three relational datasets from a Kenyan micro-lending instituti
 
 | Chart | Description |
 |---|---|
-| `AUC & ROC Curves.png` | ROC curves comparing all model architectures |
+| `training _images/AUC & ROC Curves.png`(training _images/AUC & ROC Curves.png) | ROC curves comparing all model architectures |
 | `Comparative F1 score with SMOTE.png` | F1-score improvements after SMOTE |
 | `Confusion Matrixes.png` | Baseline confusion matrices |
 | `Confusion Matrixes with tuned XGboost threshold.png` | Recall-optimized confusion matrices |
