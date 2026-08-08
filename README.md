@@ -6,7 +6,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting micro-loan defaults in agricultural finance. Built as a capstone project for **Ngao Labs**, this system evaluates loa[..]
+An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting micro-loan defaults in agricultural finance. Built as a capstone project for **Ngao Labs**.
 
 ---
 
