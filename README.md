@@ -215,7 +215,7 @@ This project is configured for seamless deployment on [Streamlit Community Cloud
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub repository: `KalonzoBrian/Ngao-Labs-Project`
 4. Set the **Main file path** to: `webapp/app.py`
-5. Click **Deploy`
+5. Click Deploy`
 
 > **Note**: The `Model/` directory containing `loan_preprocessor.joblib` and `xgb_tuned_baseline.json` must be included in the repository for deployment to work.
 
@@ -306,8 +306,8 @@ This project is developed as part of the Ngao Labs Capstone Program.
 
 <div align="center">
 
-**Built with ❤️ for Kenyan Agricultural Finance**
+**Built for Kenyan Agricultural Finance**
 
-*Empowering farmers, one loan at a time* 🌾
+*Empowering farmers, one loan at a time* 
 
 </div>
