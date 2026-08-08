@@ -30,7 +30,7 @@ An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting 
 
 ## 🎯 Problem Statement
 
-Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This project helps ensure:
+Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This project aims to provide a faster, fairer, and more transparent loan assessment pipeline using ML + XAI.
 
 - **Faster loan processing** with real-time risk scoring
 - **Reduced default rates** through data-driven decision-making
@@ -51,7 +51,7 @@ Kenyan microfinance institutions and SACCOs face significant financial risk from
 
 ---
 
-##  Project Architecture
+## Project Architecture
 
 ```mermaid
 graph LR
@@ -128,11 +128,11 @@ The project uses three relational datasets from a Kenyan micro-lending instituti
 
 | Chart | Description |
 |---|---|
-| `training _images/AUC & ROC Curves.png`(training _images/AUC & ROC Curves.png) | ROC curves comparing all model architectures |
-| `Comparative F1 score with SMOTE.png`(training _images/Comparative F1 score with SMOTE.png) | F1-score improvements after SMOTE |
-| `Confusion Matrixes.png`(training _images/Confusion Matrixes.png) | Baseline confusion matrices |
-| `Confusion Matrixes with tuned XGboost threshold.png`(training _images/Confusion Matrixes with tuned XGboost threshold.png) | Recall-optimized confusion matrices |
-| `Data distribution and Correlation.png`(training _images/Data distribution and Correlation.png) | EDA: class distribution and feature correlations |
+| ![AUC & ROC Curves](training%20_images/AUC%20%26%20ROC%20Curves.png) | ROC curves comparing all model architectures |
+| ![Comparative F1 score with SMOTE](training%20_images/Comparative%20F1%20score%20with%20SMOTE.png) | F1-score improvements after SMOTE |
+| ![Confusion Matrixes](training%20_images/Confusion%20Matrixes.png) | Baseline confusion matrices |
+| ![Confusion Matrixes with tuned XGBoost threshold](training%20_images/Confusion%20Matrixes%20with%20tuned%20XGboost%20threshold.png) | Recall-optimized confusion matrices |
+| ![Data distribution and Correlation](training%20_images/Data%20distribution%20and%20Correlation.png) | EDA: class distribution and feature correlations |
 
 </details>
 
@@ -217,7 +217,7 @@ This project is configured for seamless deployment on [Streamlit Community Cloud
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub repository: `KalonzoBrian/Ngao-Labs-Project`
 4. Set the **Main file path** to: `webapp/app.py`
-5. Click **Deploy`**
+5. Click **Deploy`
 
 > **Note**: The `Model/` directory containing `loan_preprocessor.joblib` and `xgb_tuned_baseline.json` must be included in the repository for deployment to work.
 
@@ -268,7 +268,7 @@ Ngao-Labs-Project/
 
 ## 🔑 Key Findings
 
-1. **Top Risk Drivers**: Repayment delays (`mean_repay_delay`, `max_repay_delay`), `late_repayment_ratio`, and high loan intensity (`loanamount / termdays`) are the strongest predictors of future[...]
+1. **Top Risk Drivers**: Repayment delays (`mean_repay_delay`, `max_repay_delay`), `late_repayment_ratio`, and high loan intensity (`loanamount / termdays`) are the strongest predictors of future defaults.
 
 2. **Threshold Tuning > SMOTE**: Adjusting the XGBoost classification threshold (from 0.5 to ~0.25) was more effective than SMOTE alone for catching actual defaults.
 
@@ -284,11 +284,11 @@ This project implements several Responsible AI practices:
 
 - **Explainability**: Every prediction includes SHAP-based feature impact analysis, providing loan officers with clear reasoning behind each recommendation.
 
-- **Fairness Audit**: Disaggregated AUC-ROC analysis across employment status sub-groups (`Permanent`, `Self-Employed`, `Student`, `Unemployed`, `Retired`) demonstrated consistent model performan[...]
+- **Fairness Audit**: Disaggregated AUC-ROC analysis across employment status sub-groups (`Permanent`, `Self-Employed`, `Student`, `Unemployed`, `Retired`) demonstrated consistent model performance across subgroups.
 
-- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool — not a replacement for human judgment, institutional policies, and regulat[...]
+- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool — not a replacement for human judgment, institutional policies, and regulatory checks.
 
-- **No Black Box**: The system does not simply output a "Yes/No" — it explains *why*, showing which specific factors (loan amount, repayment history, employment status, etc.) influenced the dec[...]
+- **No Black Box**: The system does not simply output a "Yes/No" — it explains *why*, showing which specific factors (loan amount, repayment history, employment status, etc.) influenced the decision.
 
 ---
 
@@ -296,7 +296,7 @@ This project implements several Responsible AI practices:
 
 | Name | Role |
 |---|---|
-| Ngao Labs Capstone Team(Ogola Peter, Brian Kitheka, Ochieng Otula  | Data Science, ML Engineering, Web Development |
+| Ngao Labs Capstone Team(Ogola Peter, Brian Kitheka, Ochieng Otula) | Data Science, ML Engineering, Web Development |
 
 ---
 
