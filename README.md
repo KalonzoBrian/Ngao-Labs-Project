@@ -30,7 +30,7 @@ An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting 
 
 ## 🎯 Problem Statement
 
-Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This[...]
+Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This project helps ensure:
 
 - **Faster loan processing** with real-time risk scoring
 - **Reduced default rates** through data-driven decision-making
