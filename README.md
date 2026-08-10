@@ -256,7 +256,7 @@ Ngao-Labs-Project/
 │   ├── Data distribution and Correlation.png
 │   └── ...
 │
-└── training datasets/                 # Raw training data (not pushed to GitHub)
+└── training datasets/                 # Raw training data 
     ├── traindemographics.csv
     ├── trainperf.csv
     └── trainprevloans.csv
