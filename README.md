@@ -284,7 +284,7 @@ This project implements several Responsible AI practices:
 
 - **Fairness Audit**: Disaggregated AUC-ROC analysis across employment status sub-groups (`Permanent`, `Self-Employed`, `Student`, `Unemployed`, `Retired`) demonstrated consistent model performance across subgroups.
 
-- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool — not a replacement for human judgment, institutional policies, and regulatory checks.
+- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool not a replacement for human judgment, institutional policies, and regulatory checks.
 
 - **No Black Box**: The system does not simply output a "Yes/No" — it explains *why*, showing which specific factors (loan amount, repayment history, employment status, etc.) influenced the decision.
 
