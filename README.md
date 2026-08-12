@@ -228,7 +228,6 @@ Ngao-Labs-Project/
 │
 ├── README.md                          # This file
 ├── .gitignore                         # Git ignore rules
-├���─ LICENSE                            # MIT License
 ├── rebuild_preprocessor.py            # Script to rebuild preprocessor with current sklearn
 ├── requirements.txt                   # Root-level dependencies
 ├── run_webapp.bat                     # Windows batch launcher
@@ -243,8 +242,13 @@ Ngao-Labs-Project/
 │   ├── trainprevloans.csv
 │   └── trainperf.csv
 │
-├── notebooks/                         # Jupyter notebooks & analysis
-│   └── Agricultural_Micro_Loan_Default_Prediction.ipynb
+├── notebooks/   # Jupyter notebooks & analysis
+│   ├── 01_eda.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_modelling.ipynb
+│   ├── 04_evaluation.ipynb
+│   └── Agricultural_Micro_Loan_Default_Prediction.ipynb notebooks
+|         
 │
 ├── reports/                           # Project documentation & findings
 │   ├── Findings.docx
