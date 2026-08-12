@@ -30,7 +30,7 @@ An end-to-end Machine Learning and Explainable AI (XAI) solution for predicting 
 
 ## 🎯 Problem Statement
 
-Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This project aims to provide a faster, fairer, and more transparent loan assessment pipeline using ML + XAI.
+Kenyan microfinance institutions and SACCOs face significant financial risk from loan defaults in the agricultural sector. Manual credit assessments are slow, inconsistent, and prone to bias. This pro[...]
 
 - **Faster loan processing** with real-time risk scoring
 - **Reduced default rates** through data-driven decision-making
@@ -228,7 +228,9 @@ Ngao-Labs-Project/
 │
 ├── README.md                          # This file
 ├── .gitignore                         # Git ignore rules
+├���─ LICENSE                            # MIT License
 ├── rebuild_preprocessor.py            # Script to rebuild preprocessor with current sklearn
+├── requirements.txt                   # Root-level dependencies
 ├── run_webapp.bat                     # Windows batch launcher
 │
 ├── Model/                             # Trained model artifacts
@@ -236,37 +238,44 @@ Ngao-Labs-Project/
 │   ├── xgb_tuned_baseline.json        # Tuned XGBoost model
 │   └── shallow_mlp_state_dict.pth     # PyTorch MLP weights
 │
-├── webapp/                            # Streamlit web application
-│   ├── .streamlit/
-│   │   └── config.toml                # Green theme configuration
-│   ├── app.py                         # Main Streamlit application
-│   ├── model_handler.py               # Model loading, prediction & SHAP
-│   └── requirements.txt               # Python dependencies
+├── dataset/                           # Training datasets
+│   ├── traindemographics.csv
+│   ├── trainprevloans.csv
+│   └── trainperf.csv
 │
-├── Agricultural Micro-Loan Default Prediction.ipynb  # Full analysis notebook
+├── notebooks/                         # Jupyter notebooks & analysis
+│   └── Agricultural_Micro_Loan_Default_Prediction.ipynb
 │
-├── Findings.docx                      # Project findings document
-├── Project Proposal.docx              # Capstone project proposal
-├── Break Week - Ngao Labs.pdf         # Assignment brief
+├── reports/                           # Project documentation & findings
+│   ├── Findings.docx
+│   ├── Project Proposal.docx
+│   └── Break Week - Ngao Labs.pdf
 │
-├── *.png                              # Model performance visualizations
+├── training_images/                   # Model performance visualizations
 │   ├── AUC & ROC Curves.png
 │   ├── Comparative F1 score with SMOTE.png
 │   ├── Confusion Matrixes.png
-│   ├── Data distribution and Correlation.png
-│   └── ...
+│   ├── Confusion Matrixes with tuned XGboost threshold.png
+│   └── Data distribution and Correlation.png
 │
-└── training datasets/                 # Raw training data 
-    ├── traindemographics.csv
-    ├── trainperf.csv
-    └── trainprevloans.csv
+└── webapp/                            # Streamlit web application
+    ├── .streamlit/
+    │   └── config.toml                # Green theme configuration
+    ├── app.py                         # Main Streamlit application
+    ├── model_handler.py               # Model loading, prediction & SHAP
+    ├── requirements.txt               # Web app dependencies
+    └── Screenshots/                   # App screenshots
+        ├── AI_explanations_lightmode.png
+        ├── AI_summary_section.png
+        ├── Webpage_darkmode.png
+        └── Webpage_lightmode.png
 ```
 
 ---
 
 ## 🔑 Key Findings
 
-1. **Top Risk Drivers**: Repayment delays (`mean_repay_delay`, `max_repay_delay`), `late_repayment_ratio`, and high loan intensity (`loanamount / termdays`) are the strongest predictors of future defaults.
+1. **Top Risk Drivers**: Repayment delays (`mean_repay_delay`, `max_repay_delay`), `late_repayment_ratio`, and high loan intensity (`loanamount / termdays`) are the strongest predictors of future defa[...]
 
 2. **Threshold Tuning > SMOTE**: Adjusting the XGBoost classification threshold (from 0.5 to ~0.25) was more effective than SMOTE alone for catching actual defaults.
 
@@ -282,11 +291,11 @@ This project implements several Responsible AI practices:
 
 - **Explainability**: Every prediction includes SHAP-based feature impact analysis, providing loan officers with clear reasoning behind each recommendation.
 
-- **Fairness Audit**: Disaggregated AUC-ROC analysis across employment status sub-groups (`Permanent`, `Self-Employed`, `Student`, `Unemployed`, `Retired`) demonstrated consistent model performance across subgroups.
+- **Fairness Audit**: Disaggregated AUC-ROC analysis across employment status sub-groups (`Permanent`, `Self-Employed`, `Student`, `Unemployed`, `Retired`) demonstrated consistent model performance ac[...]
 
-- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool not a replacement for human judgment, institutional policies, and regulatory checks.
+- **Transparency Disclaimer**: The web application includes a prominent notice that the AI is a decision-support tool not a replacement for human judgment, institutional policies, and regulatory check[...]
 
-- **No Black Box**: The system does not simply output a "Yes/No" — it explains *why*, showing which specific factors (loan amount, repayment history, employment status, etc.) influenced the decision.
+- **No Black Box**: The system does not simply output a "Yes/No" — it explains *why*, showing which specific factors (loan amount, repayment history, employment status, etc.) influenced the decision[...]
 
 ---
 
